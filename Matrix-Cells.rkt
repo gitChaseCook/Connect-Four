@@ -1,14 +1,14 @@
 ;Chase Cook
-;Program  11
-;Phase 1
-;R.Simms
 ;11/9/15
+
 
 ;This program contains a small library of functions to manipulate
 ;a matrix. The two main functions are getCell and setCell.
 ;getCell retrieves a value from a matrix and setCell modifies
-;a value in a matrix.
+;a value in a matrix. The other functions are simply helper functions.
 
+
+;This is a matrix implemented as a list of lists.
 (define m1 '((2 4 6 8)(1 3 5 7)(2 9 0 1)))
 
 
